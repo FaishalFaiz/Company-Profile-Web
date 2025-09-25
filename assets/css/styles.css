@@ -1,8 +1,16 @@
 @charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/heroimg.jpg") center/cover no-repeat;
   min-height: 100vh;
   color: white;
+}
+
+.lead {
+  max-width: 900px;
 }
 
 .hover-nav {
@@ -11,10 +19,6 @@
 
 .hover-nav:hover {
   transform: scale(1.02);
-}
-
-body {
-  overflow-x: hidden;
 }
 
 /*!

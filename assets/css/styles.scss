@@ -1,0 +1,27 @@
+$primary: #59AC77;
+
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/assets/heroimg.jpg') center/cover no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+.lead {
+    max-width: 900px;
+}
+.hover-nav {
+    transition: transform 0.5s ease;
+}
+
+.hover-nav:hover {
+    transform: scale(1.02);
+}
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
