@@ -12,9 +12,20 @@ body {
     color: white;
 }
 
-.lead {
-    max-width: 800px;
+.w-10 {
+    width: 10% !important;
 }
+
+@media (min-width: 992px) {
+    .w-lg-10 {
+        width: 10% !important;
+    }
+}
+
+.lead {
+    max-width: 85%
+}
+
 .hover-nav {
     transition: transform 0.5s ease;
 }
@@ -23,8 +34,10 @@ body {
     transform: scale(1.02);
 }
 
-.navbar-toggler:focus {
-    
+@for $i from 6 through 10 {
+    .gap-#{$i} {
+        gap: #{$i}rem !important;
+    }
 }
 
 
