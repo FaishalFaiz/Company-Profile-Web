@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/heroimg.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/master.webp") center/cover no-repeat;
   min-height: 100vh;
   color: white;
 }
@@ -22,12 +22,17 @@ body {
   max-width: 85%;
 }
 
-.hover-nav {
+.hover-scale {
   transition: transform 0.5s ease;
 }
 
-.hover-nav:hover {
-  transform: scale(1.02);
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.blockquote-footer {
+  margin-top: 0.5rem !important;
+  color: rgba(255, 255, 255, 0.6196078431) !important;
 }
 
 .gap-6 {
